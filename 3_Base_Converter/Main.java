@@ -9,7 +9,10 @@ import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class BaseEncoder {
+// This is the class declaration.
+// It is named Main since our file is named Main.java.
+// Replit automatically names the file Main.java.
+public class Main {
     // Declare the variables
     private JFrame frame;
     private JPanel panel;
@@ -19,8 +22,8 @@ public class BaseEncoder {
     private JLabel inputBaseLabel, outputBaseLabel, resultLabel;
     private GridLayout gridLayout;
 
-    // This is the constructor
-    public BaseEncoder() {
+    // This is the constructor.
+    public Main() {
         // Create the frame and panel
         frame = new JFrame();
         panel = new JPanel();
@@ -123,7 +126,7 @@ public class BaseEncoder {
 
     // This is the main method
     public static void main(String[] args) {
-        // Create a new instance of the BaseEncoder class
-        new BaseEncoder();
+        // Create a new instance of the Main class
+        new Main();
     }    
 }

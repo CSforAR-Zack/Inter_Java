@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 
 // This is the class declaration
-public class VisualSort {
+public class Main {
     // These are the variables
     private JFrame frame;
     private JPanel panel;
@@ -31,7 +31,7 @@ public class VisualSort {
     private Color bestColor = Color.red;
     
     // This is the constructor
-    public VisualSort() {
+    public Main() {
         // Create the frame and panel
         frame = new JFrame();
         panel = new JPanel();
@@ -72,6 +72,7 @@ public class VisualSort {
     // This pauses the program and updates heights
     // so we can see the sorting.
     private void pauseUpdate() {
+        // This is a try-catch block and is required when using TimeUnit
         try {
             TimeUnit.MILLISECONDS.sleep(speed);
             updateHeights();
@@ -241,6 +242,6 @@ public class VisualSort {
 
     // This is the main method
     public static void main(String[] args) {
-        new VisualSort();
+        new Main();
     }    
 }

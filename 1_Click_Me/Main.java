@@ -5,8 +5,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-// This is the class declaration
-public class ClickMe {
+// This is the class declaration.
+// It is named Main since our file is named Main.java.
+// Replit automatically names the file Main.java.
+public class Main {
     // These are the variables
     private int count = 0;
     private JFrame frame;
@@ -15,7 +17,7 @@ public class ClickMe {
     private JButton button;
 
     // This is the constructor
-    public ClickMe() {
+    public Main() {
         // Create the frame and panel
         frame = new JFrame();
         label = new JLabel("Number of clicks: 0");
@@ -54,6 +56,6 @@ public class ClickMe {
 
     // This is the main method
     public static void main(String[] args){
-        new ClickMe();
+        new Main();
     }
 }
