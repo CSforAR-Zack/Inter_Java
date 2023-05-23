@@ -1,8 +1,0 @@
-
-/* CSS for the chart lines */
-.default-color0.chart-series-line { -fx-stroke: blue; }
-.default-color1.chart-series-line { -fx-stroke: red; }
-
-/* CSS for the legend and symbols */
-.default-color0.chart-line-symbol { -fx-background-color: blue; }
-.default-color1.chart-line-symbol { -fx-background-color: red; }
